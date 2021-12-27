@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero  {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+    padding-bottom: 75px;
+}
+
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+.hero img,
+.hero .text {
+    width: 400px;
+    height: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text,
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
