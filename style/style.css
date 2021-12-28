@@ -126,15 +126,30 @@ button.sign-up-button {
 
 .box-two {
     background-color: #e5e7eb;
+    padding: 56px 0;
+}
+
+.box-two p {
+    margin: 0;
+}
+
+.quote,
+.author {
+    color: #1f2937;
+    width: 1000px;
+    height: auto;
 }
 
 .quote {
-    color: #1f2937;
     font-size: 36px;
     text-align: left;
     font-style: italic;
-    width: 1000px;
-    height: auto;
+}
+
+.author {
+    font-size: 20px;
+    text-align: right;
+    font-weight: 800;
 }
 
 /*Footer*/
