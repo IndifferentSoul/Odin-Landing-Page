@@ -73,18 +73,45 @@ button.sign-up-button {
 }
 
 .container,
-.box-one {
+.box-one,
+.info {
     display: flex;
     flex-direction: column;
     flex: 1;
     align-items: center;
-    justify-content: space-between;
-}
-
-.box-one {
-    flex-direction: row;
     justify-content: center;
 }
+
+.box-one p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.box-one .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+
+.info {
+    gap: 5px;
+}
+
+.info img {
+    max-width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.info .text {
+    color: #1f2937;
+    font-size: 16px;
+    text-align: center;
+}
+
 
 .footer  {
     justify-content: center;
