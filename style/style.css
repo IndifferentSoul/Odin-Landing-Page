@@ -5,6 +5,8 @@ body {
     min-height: 100vh;
 }
 
+/*Header*/
+
 .top,
 .hero-left  {
     display: flex;
@@ -72,15 +74,21 @@ button.sign-up-button {
     width: 125px;
 }
 
-.container,
+/*Main Content*/
+
 .box-one,
+.box-two,
+.box-three,
 .info {
     display: flex;
     flex-direction: column;
     flex: 1;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
 }
+
+/*Pictures*/
 
 .box-one p {
     color: #1f2937;
@@ -97,10 +105,12 @@ button.sign-up-button {
 
 .info {
     gap: 5px;
+    max-width: 150px;
 }
 
 .info img {
-    max-width: 100px;
+    width: 116px;
+    height: 116px;
     border: 3px solid #3882f6;
     border-radius: 10px;
     padding: 5px 5px;
@@ -108,10 +118,26 @@ button.sign-up-button {
 
 .info .text {
     color: #1f2937;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 
+/*Quote*/
+
+.box-two {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    text-align: left;
+    font-style: italic;
+    width: 1000px;
+    height: auto;
+}
+
+/*Footer*/
 
 .footer  {
     justify-content: center;
